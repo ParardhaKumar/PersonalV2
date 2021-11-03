@@ -2,16 +2,14 @@ import React,{Component} from 'react';
 import Typewriter from 'typewriter-effect';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { SocialIcon } from 'react-social-icons';
 
 import * as Content from './Content';
+import Timeline from '../Timeline/Timeline';
 import './Home.css';
 
 
 class Home extends Component{
-
-  constructor(){
-    super();
-  }
 
   render(){
     return (
@@ -38,8 +36,8 @@ class Home extends Component{
         </header>
 
         <section class="hero container flex">
-        <div class="hero__image"></div>
-
+        <div class="hero__image">
+        </div>
         <div class="hero__text">
         <h1 class="hero__title">
           <Typewriter
@@ -154,6 +152,16 @@ class Home extends Component{
         </Carousel>
 
       </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <header class="featured__header flex">
+            <h2 class="featured__title">Timeline</h2>
+            </header>
+            <br></br>
+            <Timeline/>
+          </div>
         </section>
 
         <footer class="footer">
