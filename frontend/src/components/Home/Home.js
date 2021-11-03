@@ -1,4 +1,7 @@
 import React,{Component} from 'react';
+import Typewriter from 'typewriter-effect';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import * as Content from './Content';
 import './Home.css';
@@ -38,7 +41,17 @@ class Home extends Component{
         <div class="hero__image"></div>
 
         <div class="hero__text">
-        <h1 class="hero__title">{Content.heading}</h1>
+        <h1 class="hero__title">
+          <Typewriter
+            options={{
+              strings: [Content.heading],
+              autoStart: true,
+              loop: true,
+              pauseFor: 10000,
+              cursor: '_'
+            }}
+          />
+        </h1>
         <p class="hero__description">
         {Content.introduction}
         </p>
@@ -96,9 +109,12 @@ class Home extends Component{
 
         <section class="featured">
         <div class="container">
-        <header class="featured__header flex">
-        <h2 class="featured__title">Recent Projects</h2>
-        </header>
+          <header class="featured__header flex">
+          <h2 class="featured__title">Recent Projects</h2>
+          </header>
+          <br></br>
+        <Carousel>
+        <div>
 
         <div class="featured-cards-area flex">
         <div class="featured-card flex">
@@ -115,7 +131,10 @@ class Home extends Component{
         </p>
         </div>
         </div>
+        </div>
+        </div>
 
+        <div>
         <div class="featured-card flex">
         <div class="featured-card__image featured-card__image--2"></div>
 
@@ -132,7 +151,9 @@ class Home extends Component{
         </div>
 
         </div>
-        </div>
+        </Carousel>
+
+      </div>
         </section>
 
         <footer class="footer">

@@ -562,6 +562,18 @@ a {
   margin-bottom: 1.25rem; /* 20px */
 }
 
+.carousel .slide{
+  text-align: left;
+}
+
+.carousel .control-dots .dot{
+  background-color: grey;
+}
+
+.carousel .control-arrow {
+  background: grey;
+}
+
 /* Featured Card Date And Tags */
 .featured-card__data-year,
 .featured-card__tags {

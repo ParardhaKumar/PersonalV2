@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Home from './components/Home/Home';
+import Blog from './components/Blog/Blog';
 import './App.css';
 
 class App extends Component{
@@ -15,6 +16,7 @@ class App extends Component{
         <div>
           <Switch>
             <Route path="/" component={Home} exact />
+            <Route path="/blog" component={Blog} exact />
           </Switch>
         </div>
       </BrowserRouter>
