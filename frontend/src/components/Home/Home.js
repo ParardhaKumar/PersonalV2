@@ -104,7 +104,7 @@ class Home extends Component{
           // </section>
         }
 
-        <section class="featured">
+        <section class="hero container flex">
         <div class="container">
           <header class="featured__header flex">
           <h2 class="featured__title">Recent Projects</h2>
@@ -153,10 +153,10 @@ class Home extends Component{
       </div>
         </section>
 
-        <section>
+        <section class="featured">
           <div class="container">
             <header class="featured__header flex">
-            <h2 class="featured__title">Timeline</h2>
+            <h2 class="featured__title">Education & Experience Timeline</h2>
             </header>
             <br></br>
             <Timeline/>

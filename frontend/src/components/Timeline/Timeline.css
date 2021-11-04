@@ -233,6 +233,28 @@
 
 
 img {
-   max-width:100%;
+   max-width:80%;
    height:auto;
+}
+
+.graduated-cap {
+  max-width:10%;
+  position: relative;
+  z-index: -1;
+  bottom: 1rem;
+  left: 3rem;
+}
+
+.timeline-location{
+  font-size: 15px;
+}
+
+.location{
+  max-width:5%;
+  text-decoration: none;
+  position: relative;
+}
+
+.born{
+  max-width:20%;
 }
