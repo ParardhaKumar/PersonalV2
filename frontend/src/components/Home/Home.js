@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 import * as Content from './Content';
 import Timeline from '../Timeline/Timeline';
+import SocialIcons from '../SocialIcons/SocialIcons';
 import './Home.css';
 
 
@@ -27,15 +28,14 @@ class Home extends Component{
         <li class="menu__item">
         <a href="#" class="menu__link">Blog</a>
         </li>
-        <li class="menu__item">
-        <a href="#" class="menu__link">Contact</a>
-        </li>
         </ul>
         </nav>
         </header>
 
         <section class="hero container flex">
         <div class="hero__image">
+        </div>
+        <div>
         </div>
         <div class="hero__text">
         <h1 class="hero__title">
@@ -53,8 +53,8 @@ class Home extends Component{
         {Content.introduction}
         </p>
         <hr></hr>
-
         {/*<a href="#" class="btn btn--main">Download Resume</a>*/}
+        <SocialIcons />
         </div>
         </section>
 

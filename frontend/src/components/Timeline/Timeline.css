@@ -19,6 +19,7 @@
  .container-fluid .row {
 	 padding: 0 0 4em 0;
 }
+
  .container-fluid .row:nth-child(even) {
 	 background: #f1f4f5;
 }
@@ -104,6 +105,7 @@
  .timeline-content {
 	 padding-bottom: 40px;
 }
+
  .timeline-content p:last-child {
 	 margin-bottom: 0;
 }
@@ -137,6 +139,11 @@
 }
  .period .timeline-title {
 	 margin: 0;
+}
+
+.graduated-cap{
+		   max-width:80%;
+		   height:auto;
 }
 /*---------------------------------------------- MOD: TIMELINE SPLIT ----------------------------------------------*/
  @media (min-width: 768px) {
