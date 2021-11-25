@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -289,10 +290,6 @@ a {
   }
 }
 
-.hero__text {
-
-}
-
 @media (min-width: 48em) { /* 768px */
   .hero__text {
     max-width: min(31.25rem, 50vw); /* 500px 50vw */
@@ -531,7 +528,7 @@ a {
 
 /* Set The Background Image */
 .featured-card__image--1 {
-  background-image: url('https://a.top4top.io/p_2005teyl23.png'); /*../images/featured-image-1.svg*/
+  background-image: url('detective.png'); /*../images/featured-image-1.svg*/
 }
 
 .featured-card__image--2 {
@@ -540,10 +537,6 @@ a {
 
 .featured-card__image--3 {
   background-image: url('https://a.top4top.io/p_2005teyl23.png'); /*../images/featured-image-3.svg*/
-}
-
-.featured-card__text {
-
 }
 
 .featured-card__title {
@@ -631,11 +624,19 @@ a {
   opacity: 0.8;
 }
 
-.footer__text {
-
-}
-
 .footer__paragraph {
   font-size: 0.875rem; /* 14px */
   color: var(--clr-dark);
+}
+
+.scroll {
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  width: 10vh;
+  z-index: 200;
+}
+
+#scroll-gif{
+  max-width: 105% !important;
 }

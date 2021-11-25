@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGitAlt, faJava } from '@fortawesome/free-brands-svg-icons';
 
 import './SocialIcons.css';
 import { media } from './SocialMedia';
@@ -8,12 +6,13 @@ import { media } from './SocialMedia';
 class SocialIcons extends Component{
   render(){
     return(
-      <div class="container">
+      <div class="container flex">
           { media.map(social => (
             <div class="mySocialMediaIcons">
-              <a href={social.url}> </a>
+              <a href={social.url} target="_blank">
               <img src={social.image}>
               </img>
+              </a>
               </div>
             ))
           }

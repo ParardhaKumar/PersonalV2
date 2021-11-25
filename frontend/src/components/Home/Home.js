@@ -8,56 +8,64 @@ import Timeline from '../Timeline/Timeline';
 import SocialIcons from '../SocialIcons/SocialIcons';
 import './Home.css';
 
-
 class Home extends Component{
+
+  constructor(){
+    super();
+  }
+
+  componentDidMount() {
+  }
 
   render(){
     return (
       <div>
         <header class="header flex">
-        <div class="header__overlay has-fade"></div>
+          <div class="header__overlay has-fade" id="header"></div>
 
-        <nav class="navbar flex">
-        <div class="toggle-menu hide-for-desktop" role="button" tabindex="0" aria-label="toggleMenu">
-        <span class="toggle-menu__item"></span>
-        <span class="toggle-menu__item"></span>
-        <span class="toggle-menu__item"></span>
-        </div>
+          <nav class="navbar flex">
+            <div class="toggle-menu hide-for-desktop" role="button" tabindex="0" aria-label="toggleMenu">
+              <span class="toggle-menu__item"></span>
+              <span class="toggle-menu__item"></span>
+              <span class="toggle-menu__item"></span>
+            </div>
 
-        <ul class="menu flex has-fade">
-        <li class="menu__item">
-        <a href="#" class="menu__link">Blog</a>
-        </li>
-        </ul>
-        </nav>
+            <ul class="menu flex has-fade">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Blog</a>
+              </li>
+            </ul>
+          </nav>
         </header>
 
         <section class="hero container flex">
-        <div class="hero__image">
-        </div>
-        <div>
-        </div>
-        <div class="hero__text">
-        <h1 class="hero__title">
-          <Typewriter
-            options={{
-              strings: [Content.heading],
-              autoStart: true,
-              loop: true,
-              pauseFor: 10000,
-              cursor: '_'
-            }}
-          />
-        </h1>
-        <p class="hero__description">
-        {Content.introduction}
-        </p>
-        <hr></hr>
-        {/*<a href="#" class="btn btn--main">Download Resume</a>*/}
-        <SocialIcons />
-        </div>
+          <div class="hero__image">
+          </div>
+          <div class="hero__text">
+            <h1 class="hero__title">
+              <Typewriter
+                options={{
+                  strings: [Content.heading],
+                  autoStart: true,
+                  loop: true,
+                  pauseFor: 10000,
+                  cursor: '_'
+                }}
+                />
+            </h1>
+            <p class="hero__description">
+              {Content.introduction}
+            </p>
+            <hr></hr>
+            {/*<a href="#" class="btn btn--main">Download Resume</a>*/}
+            <SocialIcons />
+          </div>
         </section>
-
+        <div class="scroll">
+          <a href="#recent-projects">
+            <img src="./scroll-down.gif" id="scroll-gif"></img>
+          </a>
+        </div>
         {
           // <section class="recent-posts">
           // <div class="container">
@@ -104,59 +112,62 @@ class Home extends Component{
           // </section>
         }
 
-        <section class="hero container flex">
-        <div class="container">
-          <header class="featured__header flex">
-          <h2 class="featured__title">Recent Projects</h2>
-          </header>
-          <br></br>
-        <Carousel>
-        <div>
+        <section class="hero container flex" id="recent-projects">
+          <div class="container">
+            <header class="featured__header flex">
+              <div>
+                <h2 class="featured__title">Recent Projects</h2>
+              </div>
 
-        <div class="featured-cards-area flex">
-        <div class="featured-card flex">
-        <div class="featured-card__image featured-card__image--1"></div>
+            </header>
+            <br></br>
+            <Carousel>
+              <div>
 
-        <div class="featured-card__text">
-        <h1 class="featured-card__title"> <a href="http://dumbgamer.com"> Dumb Gamer </a> </h1>
-        <div class="featured-card__info flex">
-        <span class="featured-card__data-year">2020-21</span>
-        <span class="featured-card__tags">Social Gaming Platform</span>
-        </div>
-        <p class="featured-card__description">
-        Dumb Gamer is a platform to play social games with friends and family. Currently the platform serves Mafia aka One Night Ultimate Werewolf, and in the process of onboarding new games soon.
-        </p>
-        </div>
-        </div>
-        </div>
-        </div>
+                <div class="featured-cards-area flex">
+                  <div class="featured-card flex">
+                    <div class="featured-card__image featured-card__image--1"></div>
 
-        <div>
-        <div class="featured-card flex">
-        <div class="featured-card__image featured-card__image--2"></div>
+                    <div class="featured-card__text">
+                      <h1 class="featured-card__title"> <a href="http://dumbgamer.com"> Dumb Gamer </a> </h1>
+                      <div class="featured-card__info flex">
+                        <span class="featured-card__data-year">2020-21</span>
+                        <span class="featured-card__tags">Social Gaming Platform</span>
+                      </div>
+                      <p class="featured-card__description">
+                        Dumb Gamer is a platform to play social games with friends and family. Currently the platform serves Mafia aka One Night Ultimate Werewolf, and in the process of onboarding new games soon.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <div class="featured-card__text">
-        <h1 class="featured-card__title"><a href="http://indiafightscorona.herokuapp.com/">India Fights Corona </a></h1>
-        <div class="featured-card__info flex">
-        <span class="featured-card__data-year">2020</span>
-        <span class="featured-card__tags">Corona Helpboard</span>
-        </div>
-        <p class="featured-card__description">
-        India Fights Corona is a dashboard intented to create a unified platform for the country and to report any emergency during the first ever and sudden lockdown of the country.
-        </p>
-        </div>
-        </div>
+              <div>
+                <div class="featured-card flex">
+                  <div class="featured-card__image featured-card__image--2"></div>
 
-        </div>
-        </Carousel>
+                  <div class="featured-card__text">
+                    <h1 class="featured-card__title"><a href="http://indiafightscorona.herokuapp.com/">India Fights Corona </a></h1>
+                    <div class="featured-card__info flex">
+                      <span class="featured-card__data-year">2020</span>
+                      <span class="featured-card__tags">Corona Helpboard</span>
+                    </div>
+                    <p class="featured-card__description">
+                      India Fights Corona is a dashboard intented to create a unified platform for the country and to report any emergency during the first ever and sudden lockdown of the country.
+                    </p>
+                  </div>
+                </div>
 
-      </div>
+              </div>
+            </Carousel>
+
+          </div>
         </section>
 
         <section class="featured">
           <div class="container">
             <header class="featured__header flex">
-            <h2 class="featured__title">Education & Experience Timeline</h2>
+              <h2 class="featured__title">Education & Experience Timeline</h2>
             </header>
             <br></br>
             <Timeline/>
@@ -164,16 +175,11 @@ class Home extends Component{
         </section>
 
         <footer class="footer">
-        <div class="footer__links flex">
-        <a href="#" class="footer__link flex"><i class='bx bxl-facebook-square'></i></a>
-        <a href="#" class="footer__link flex"><i class='bx bxl-instagram' ></i></a>
-        <a href="#" class="footer__link flex"><i class='bx bxl-twitter' ></i></a>
-        <a href="#" class="footer__link flex"><i class='bx bxl-linkedin'></i></a>
-        </div>
-        <div class="footer__text">
-        <hr></hr>
-        <p class="footer__paragraph">Thanks for visiting my personal website. Made with love using React</p>
-        </div>
+          <a href="#hero"><div>Back to Top</div></a>
+          <div class="footer__text">
+            <hr></hr>
+            <p class="footer__paragraph">Thanks for visiting my personal website. Please do reach out to me on any of my social media handles for any query.</p>
+          </div>
         </footer>
 
       </div>
