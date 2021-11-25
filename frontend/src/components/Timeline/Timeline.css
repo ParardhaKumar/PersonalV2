@@ -265,3 +265,16 @@ img {
 .born{
   max-width:20%;
 }
+
+.icon-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#git-logo{
+	max-width: 70% !important;
+}
+
+#spring-logo{
+	max-width: 13% !important;
+}

@@ -33,8 +33,12 @@ class Timeline extends Component{
                                 }
                                 </div>
                                 <p>I am currently working as a Software Developer with the Business Banking Team.</p>
-                                <p>Skills Used: <FontAwesomeIcon icon={faGitAlt} />
-                                <FontAwesomeIcon icon={faJava} />
+                                <p>
+                                <div class="icon-container">
+                                  <div><img src="./git.png" id="git-logo"></img></div>
+                                  <div><img src="./spring.svg" id="spring-logo"></img></div>
+                                </div>
+
                                 </p>
                             </div>
                         </li>

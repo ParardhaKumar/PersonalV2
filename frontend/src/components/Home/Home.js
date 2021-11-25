@@ -32,6 +32,9 @@ class Home extends Component{
 
             <ul class="menu flex has-fade">
               <li class="menu__item">
+                <a href="#" class="menu__link">Resume</a>
+              </li>
+              <li class="menu__item">
                 <a href="#" class="menu__link">Blog</a>
               </li>
             </ul>
