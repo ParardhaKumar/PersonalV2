@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import Typewriter from 'typewriter-effect';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -46,15 +45,7 @@ class Home extends Component{
           </div>
           <div class="hero__text">
             <h1 class="hero__title">
-              <Typewriter
-                options={{
-                  strings: [Content.heading],
-                  autoStart: true,
-                  loop: true,
-                  pauseFor: 10000,
-                  cursor: '_'
-                }}
-                />
+              {Content.heading}
             </h1>
             <p class="hero__description">
               {Content.introduction}
