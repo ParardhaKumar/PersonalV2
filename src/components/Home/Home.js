@@ -31,7 +31,7 @@ class Home extends Component{
 
             <ul class="menu flex has-fade">
               <li class="menu__item">
-                <a href="#" class="menu__link">Resume</a>
+                <a href={Content.resume} class="menu__link" target="_blank">Resume</a>
               </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">Blog</a>
@@ -125,7 +125,7 @@ class Home extends Component{
                     <div class="featured-card__text">
                       <h1 class="featured-card__title"> <a href="http://dumbgamer.com"> Dumb Gamer </a> </h1>
                       <div class="featured-card__info flex">
-                        <span class="featured-card__data-year">2020-21</span>
+                        <span class="featured-card__data-year">2020 - Present</span>
                         <span class="featured-card__tags">Social Gaming Platform</span>
                       </div>
                       <p class="featured-card__description">
