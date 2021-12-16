@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-
+import { Typewriter } from 'react-simple-typewriter';
 import * as Content from './Content';
 import Timeline from '../Timeline/Timeline';
 import SocialIcons from '../SocialIcons/SocialIcons';
@@ -48,7 +48,11 @@ class Home extends Component{
               {Content.heading}
             </h1>
             <p class="hero__description">
-              {Content.introduction}
+              <Typewriter
+                words={Content.introduction}
+                loop={0}
+                typeSpeed={50}
+                deleteSpeed={10} />
             </p>
             <hr></hr>
             {/*<a href="#" class="btn btn--main">Download Resume</a>*/}
