@@ -45,7 +45,7 @@ class Home extends Component{
           </div>
           <div class="hero__text">
             <h1 class="hero__title">
-              {Content.heading}
+              {Content.heading}	&#128075;
             </h1>
             <p class="hero__description">
               <Typewriter
