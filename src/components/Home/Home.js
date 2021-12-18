@@ -48,7 +48,7 @@ class Home extends Component{
               {Content.heading}	&#128075;
             </h1>
             <p class="hero__description">
-              <Typewriter
+              {Content.i}<Typewriter
                 words={Content.introduction}
                 loop={0}
                 typeSpeed={50}
