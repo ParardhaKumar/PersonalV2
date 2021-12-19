@@ -57,7 +57,7 @@ class Home extends Component{
           // </header>
           //
           // <div class="posts-area flex">
-          // <div class="post-card">
+          // <div class="post-oud">
           // <h3 class="post-card__title">Making a design system from scratch</h3>
           //
           // <div class="post-card__info">
@@ -103,7 +103,7 @@ class Home extends Component{
 
             </header>
             <br></br>
-            <Carousel>
+            <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
               <div>
 
                 <div class="featured-cards-area flex">
