@@ -5,6 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import * as Content from './Content';
 import Timeline from '../Timeline/Timeline';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import Header from '../Header/Header';
 import './Home.css';
 
 class Home extends Component{
@@ -20,24 +21,7 @@ class Home extends Component{
     return (
       <div>
         <header class="header flex">
-          <div class="header__overlay has-fade" id="header"></div>
-
-          <nav class="navbar flex">
-            <div class="toggle-menu hide-for-desktop" role="button" tabindex="0" aria-label="toggleMenu">
-              <span class="toggle-menu__item"></span>
-              <span class="toggle-menu__item"></span>
-              <span class="toggle-menu__item"></span>
-            </div>
-
-            <ul class="menu flex has-fade">
-              <li class="menu__item">
-                <a href={Content.resume} class="menu__link" target="_blank">Resume</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Blog</a>
-              </li>
-            </ul>
-          </nav>
+          <Header />
         </header>
 
         <section class="hero container flex">

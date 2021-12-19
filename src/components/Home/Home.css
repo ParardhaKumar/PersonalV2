@@ -82,6 +82,9 @@ a {
   .hide-for-desktop {
     display: none;
   }
+  .toggle-menu__item{
+    display: none;  
+  }
 }
 
 .btn {
