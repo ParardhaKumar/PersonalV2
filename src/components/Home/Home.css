@@ -635,7 +635,7 @@ a {
 .scroll {
   position: absolute;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -5.25vh;
   width: 10vh;
   z-index: 200;
 }
