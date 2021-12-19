@@ -24,7 +24,7 @@ class Home extends Component{
           <Header />
         </header>
 
-        <section class="hero container flex">
+        <section class="hero container flex" id="landing">
           <div class="hero__image">
           </div>
           <div class="hero__text">
@@ -157,7 +157,7 @@ class Home extends Component{
         </section>
 
         <footer class="footer">
-          <a href="#hero"><div>Back to Top</div></a>
+          <a href="#landing"><div>Back to Top</div></a>
           <div class="footer__text">
             <hr></hr>
             <p class="footer__paragraph">Thanks for visiting my personal website. Please do reach out to me on any of my social media handles for any query.</p>
