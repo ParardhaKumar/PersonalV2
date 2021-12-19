@@ -95,13 +95,13 @@ class Home extends Component{
         }
 
         <section class="hero container flex" id="recent-projects">
-          <div class="container">
-            <header class="featured__header flex">
+          <div class="container projects-container">
+            <div class="featured__header flex">
               <div>
                 <h2 class="featured__title">Recent Projects</h2>
               </div>
 
-            </header>
+            </div>
             <br></br>
             <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
               <div>

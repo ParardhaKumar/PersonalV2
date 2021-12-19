@@ -83,7 +83,7 @@ a {
     display: none;
   }
   .toggle-menu__item{
-    display: none;  
+    display: none;
   }
 }
 
@@ -642,4 +642,10 @@ a {
 
 #scroll-gif{
   max-width: 105% !important;
+}
+
+@media (max-width: 568px) {
+  .projects-container {
+    max-width: 100vw !important;
+  }
 }
