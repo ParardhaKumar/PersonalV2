@@ -18,7 +18,7 @@ class Header extends Component{
         </div>
         <ul class="menu-items">
             <li><a href={Content.resume}  target="_blank">Resume</a></li>
-            <li><a href="#testimonials">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><img src="random.jpg" id="nav-img"></img></li>
         </ul>

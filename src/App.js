@@ -6,6 +6,7 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
+import BlogUnderConstruction from './components/Blog/BlogUnderConstruction';
 import NotFound from './components/NotFound/NotFound';
 import './App.css';
 
@@ -24,7 +25,7 @@ class App extends Component{
         <div>
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/blog" component={Blog} exact />
+            <Route path="/blog" component={BlogUnderConstruction} exact />
             <Route component={NotFound}/>
           </Switch>
         </div>
