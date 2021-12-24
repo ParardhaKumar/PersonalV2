@@ -126,6 +126,7 @@ class Timeline extends Component{
                             <div class="timeline-content">
                                 <img class="born" src="./Newborn.png"></img>
                                 <h2 class="timeline-title">1995</h2>
+                                <p>June 23rd</p>
                             </div>
                         </li>
                     </ul>
