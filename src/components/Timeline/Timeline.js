@@ -67,7 +67,7 @@ class Timeline extends Component{
                             </a>
                             </div>
                                 <h3 className="timeline-title">Indian Institute of Technology (ISM) Dhanbad</h3>
-                                <p>Integrated Master of Technology in Mathematics & Computing (Honours) (2014-2019) </p>
+                                <p>Integrated Master of Technology in Mathematics & Computing (Distinction) (CGPA: 8.73/10) </p>
                             </div>
                         </li>
 

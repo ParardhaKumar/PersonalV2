@@ -95,6 +95,7 @@ class Home extends Component{
             <div className="featured__header flex">
               <div>
                 <h2 className="featured__title">Recent Projects</h2>
+                <hr></hr>
               </div>
 
             </div>
@@ -131,7 +132,7 @@ class Home extends Component{
                       <span className="featured-card__tags">Corona Helpboard</span>
                     </div>
                     <p className="featured-card__description">
-                      India Fights Corona is a dashboard intented to create a unified platform for the country and to report any emergency during the first ever and sudden lockdown of the country.
+                      India Fights Corona is a dashboard intented to create a unified platform for the NGOs in India to collaborate and work under a single umbrella to handle reported emergencies during the sudden lockdown of the country due to the COVID-19 Pademic.
                     </p>
                   </div>
                 </div>
@@ -145,7 +146,8 @@ class Home extends Component{
         <section className="featured">
           <div className="container">
             <header className="featured__header flex">
-              <h2 className="featured__title">Education & Experience Timeline</h2>
+              <h2 className="featured__title">Timeline</h2>
+              <hr></hr>
             </header>
             <br></br>
             <Timeline/>
