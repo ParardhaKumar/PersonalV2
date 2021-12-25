@@ -5,9 +5,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import Home from './components/Home/Home';
-import Blog from './components/Blog/Blog';
 import BlogUnderConstruction from './components/Blog/BlogUnderConstruction';
 import NotFound from './components/NotFound/NotFound';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,9 +15,6 @@ import './App.css';
 library.add(fab, faCheckSquare, faCoffee);
 
 class App extends Component{
-  constructor(){
-    super();
-  }
 
   render(){
     return(
@@ -26,6 +23,7 @@ class App extends Component{
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/blog" component={BlogUnderConstruction} exact />
+            <Route path="/contact" component={Contact} exact />
             <Route component={NotFound}/>
           </Switch>
         </div>

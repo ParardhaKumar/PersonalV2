@@ -10,28 +10,24 @@ import './Home.css';
 
 class Home extends Component{
 
-  constructor(){
-    super();
-  }
-
   componentDidMount() {
   }
 
   render(){
     return (
       <div>
-        <header class="header flex">
+        <header className="header flex">
           <Header />
         </header>
 
-        <section class="hero container flex" id="landing">
-          <div class="hero__image">
+        <section className="hero container flex" id="landing">
+          <div className="hero__image">
           </div>
-          <div class="hero__text">
-            <h1 class="hero__title">
+          <div className="hero__text">
+            <h1 className="hero__title">
               {Content.heading}	&#128075;
             </h1>
-            <p class="hero__description">
+            <p className="hero__description">
               {Content.i}<Typewriter
                 words={Content.introduction}
                 loop={0}
@@ -39,33 +35,33 @@ class Home extends Component{
                 deleteSpeed={10} />
             </p>
             <hr></hr>
-            {/*<a href="#" class="btn btn--main">Download Resume</a>*/}
+            {/*<a href="#" className="btn btn--main">Download Resume</a>*/}
             <SocialIcons />
           </div>
         </section>
-        <div class="scroll">
+        <div className="scroll">
           <a href="#recent-projects">
-            <img src="./scroll-down.gif" id="scroll-gif"></img>
+            <img src="./scroll-down.gif" id="scroll-gif" alt=""></img>
           </a>
         </div>
         {
-          // <section class="recent-posts">
-          // <div class="container">
-          // <header class="recent-posts__header flex">
-          // <h2 class="recent-posts__title">Recent posts</h2>
-          // <a href="#" class="recent-posts__link">View all</a>
+          // <section className="recent-posts">
+          // <div className="container">
+          // <header className="recent-posts__header flex">
+          // <h2 className="recent-posts__title">Recent posts</h2>
+          // <a href="#" className="recent-posts__link">View all</a>
           // </header>
           //
-          // <div class="posts-area flex">
-          // <div class="post-oud">
-          // <h3 class="post-card__title">Making a design system from scratch</h3>
+          // <div className="posts-area flex">
+          // <div className="post-oud">
+          // <h3 className="post-card__title">Making a design system from scratch</h3>
           //
-          // <div class="post-card__info">
-          // <span class="post-card__date">12 Feb 2020</span>
-          // <span class="post-card__tags">Design, Pattern</span>
+          // <div className="post-card__info">
+          // <span className="post-card__date">12 Feb 2020</span>
+          // <span className="post-card__tags">Design, Pattern</span>
           // </div>
           //
-          // <p class="post-card__description">
+          // <p className="post-card__description">
           // Amet minim mollit non deserunt ullamco
           // est sit aliqua dolor do amet sint. Velit officia consequat
           // duis enim velit mollit. Exercitation veniam
@@ -73,16 +69,16 @@ class Home extends Component{
           // </p>
           // </div>
           //
-          // <div class="post-card">
-          // <h4 class="post-card__title">Creating pixel perfect
+          // <div className="post-card">
+          // <h4 className="post-card__title">Creating pixel perfect
           // icons in Figma</h4>
           //
-          // <div class="post-card__info">
-          // <span class="post-card__date">12 Feb 2020</span>
-          // <span class="post-card__tags">Design, Pattern</span>
+          // <div className="post-card__info">
+          // <span className="post-card__date">12 Feb 2020</span>
+          // <span className="post-card__tags">Design, Pattern</span>
           // </div>
           //
-          // <p class="post-card__description">
+          // <p className="post-card__description">
           // Amet minim mollit non deserunt ullamco
           // est sit aliqua dolor do amet sint. Velit officia consequat
           // duis enim velit mollit. Exercitation veniam
@@ -94,11 +90,12 @@ class Home extends Component{
           // </section>
         }
 
-        <section class="hero container flex" id="recent-projects">
-          <div class="container projects-container">
-            <div class="featured__header flex">
+        <section className="hero container flex" id="recent-projects">
+          <div className="container projects-container">
+            <div className="featured__header flex">
               <div>
-                <h2 class="featured__title">Recent Projects</h2>
+                <h2 className="featured__title">Recent Projects</h2>
+                <hr></hr>
               </div>
 
             </div>
@@ -106,17 +103,17 @@ class Home extends Component{
             <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
               <div>
 
-                <div class="featured-cards-area flex">
-                  <div class="featured-card flex">
-                    <div class="featured-card__image featured-card__image--1"></div>
+                <div className="featured-cards-area flex">
+                  <div className="featured-card flex">
+                    <div className="featured-card__image featured-card__image--1"></div>
 
-                    <div class="featured-card__text">
-                      <h1 class="featured-card__title"> <a href="http://dumbgamer.com"> Dumb Gamer </a> </h1>
-                      <div class="featured-card__info flex">
-                        <span class="featured-card__data-year">2020 - Present</span>
-                        <span class="featured-card__tags">Social Gaming Platform</span>
+                    <div className="featured-card__text">
+                      <h1 className="featured-card__title"> <a href="http://dumbgamer.com"> Dumb Gamer </a> </h1>
+                      <div className="featured-card__info flex">
+                        <span className="featured-card__data-year">2020 - Present</span>
+                        <span className="featured-card__tags">Social Gaming Platform</span>
                       </div>
-                      <p class="featured-card__description">
+                      <p className="featured-card__description">
                         Dumb Gamer is a platform to play social games with friends and family. Currently the platform serves Mafia aka One Night Ultimate Werewolf, and in the process of onboarding new games soon.
                       </p>
                     </div>
@@ -125,17 +122,17 @@ class Home extends Component{
               </div>
 
               <div>
-                <div class="featured-card flex">
-                  <div class="featured-card__image featured-card__image--2"></div>
+                <div className="featured-card flex">
+                  <div className="featured-card__image featured-card__image--2"></div>
 
-                  <div class="featured-card__text">
-                    <h1 class="featured-card__title"><a href="http://indiafightscorona.herokuapp.com/">India Fights Corona </a></h1>
-                    <div class="featured-card__info flex">
-                      <span class="featured-card__data-year">2020</span>
-                      <span class="featured-card__tags">Corona Helpboard</span>
+                  <div className="featured-card__text">
+                    <h1 className="featured-card__title"><a href="http://indiafightscorona.herokuapp.com/">India Fights Corona </a></h1>
+                    <div className="featured-card__info flex">
+                      <span className="featured-card__data-year">2020</span>
+                      <span className="featured-card__tags">Corona Helpboard</span>
                     </div>
-                    <p class="featured-card__description">
-                      India Fights Corona is a dashboard intented to create a unified platform for the country and to report any emergency during the first ever and sudden lockdown of the country.
+                    <p className="featured-card__description">
+                      India Fights Corona is a dashboard intented to create a unified platform for the NGOs in India to collaborate and work under a single umbrella to handle reported emergencies during the sudden lockdown of the country due to the COVID-19 Pademic.
                     </p>
                   </div>
                 </div>
@@ -146,21 +143,22 @@ class Home extends Component{
           </div>
         </section>
 
-        <section class="featured">
-          <div class="container">
-            <header class="featured__header flex">
-              <h2 class="featured__title">Education & Experience Timeline</h2>
+        <section className="featured">
+          <div className="container">
+            <header className="featured__header flex">
+              <h2 className="featured__title">Timeline</h2>
+              <hr></hr>
             </header>
             <br></br>
             <Timeline/>
           </div>
         </section>
 
-        <footer class="footer">
+        <footer className="footer">
           <a href="#landing"><div>Back to Top</div></a>
-          <div class="footer__text">
+          <div className="footer__text">
             <hr></hr>
-            <p class="footer__paragraph">Thanks for visiting my personal website. Please do reach out to me on any of my social media handles for any query.</p>
+            <p className="footer__paragraph">Thanks for visiting my personal website. Please do reach out to me on any of my social media handles for any query.</p>
           </div>
         </footer>
 
