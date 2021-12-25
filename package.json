@@ -19,6 +19,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^0.9.5",
     "react-simple-typewriter": "^3.0.1",
+    "reshake": "^1.2.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

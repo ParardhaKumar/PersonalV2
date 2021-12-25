@@ -34,8 +34,12 @@ class Timeline extends Component{
                                 <p>I am currently working as a Software Developer with the Business Banking Team.</p>
                                 <p>
                                 <div className="icon-container">
-                                  <div><img src="./git.png" id="git-logo" alt=""></img></div>
-                                  <div><img src="./spring.svg" id="spring-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./java.png" id="spring-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./spring.png" id="springboot-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./oracle.png" id="spring-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./nodejs.png" id="spring-logo" alt=""></img></div>
+                                    <div className="icon"><img src="./git.png" id="git-logo" alt=""></img></div>
+                                    <div className="icon"><img src="./jenkins.png" id="spring-logo" alt=""></img></div>
                                 </div>
 
                                 </p>
@@ -80,10 +84,14 @@ class Timeline extends Component{
                             <img src="./PolyU.png" alt=""></img>
                             </a>
                             </div>
-
                                 <p>Worked with Prof Cedric Yiu Speech Analytics on Speech Analytics and Acoustic Scene Classification using Bi-directional LSTMs.</p>
+                                <div className="icon-container">
+                                  <div className="icon"><img src="./tensorflow.png" id="git-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./python.png" id="git-logo" alt=""></img></div>
+                                </div>
                             </div>
                         </li>
+
                         <li className="timeline-item">
                             <div className="timeline-info">
                                 <span>May 2016</span>
@@ -96,11 +104,12 @@ class Timeline extends Component{
                                 <img src="./Coins.png" alt=""></img>
                                 </a>
                                 </div>
-                                <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                                    eu pede mollis pretium. Pellentesque ut neque. </p>
-                                    <p>Skills Used: <FontAwesomeIcon icon={faGitAlt} />
-                                    <FontAwesomeIcon icon={faJava} />
-                                    </p>
+                                <p>Developed OpsWEB, a ReactJS/Rails application to help automate the Operation team’s recurrent book-keeping tasks </p>
+                                <div className="icon-container">
+                                  <div className="icon"><img src="./ror.png" id="spring-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./react.png" id="git-logo" alt=""></img></div>
+                                  <div className="icon"><img src="./docker.png" id="git-logo" alt=""></img></div>
+                                </div>
                             </div>
                         </li>
                         <li className="timeline-item">

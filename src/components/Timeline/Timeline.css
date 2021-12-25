@@ -269,12 +269,26 @@ img {
 .icon-container{
 	display: flex;
 	justify-content: space-evenly;
+	height: auto;
+}
+
+.icon{
+	height: auto;
+	width: auto;
 }
 
 #git-logo{
-	max-width: 70% !important;
+	height: 100%;
+	width: 130%;
 }
 
 #spring-logo{
-	max-width: 13% !important;
+	height: 100%;
+	width: 130%;
+}
+
+#springboot-logo{
+	margin-top: -5px;
+	height: 130%;
+	width: 110%;
 }

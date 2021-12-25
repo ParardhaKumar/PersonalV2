@@ -132,3 +132,7 @@ progress::-webkit-progress-bar {
 	color: #00AFE9;
 	border: 2px solid #00AFE9;
 }
+
+textarea{
+  width: 100%;
+}

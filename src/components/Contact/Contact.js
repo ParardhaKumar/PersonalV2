@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 
 import './Contact.css';
-
+import Error from './Error'
 class Contact extends Component{
   constructor(){
     super();
@@ -10,14 +10,23 @@ class Contact extends Component{
       step: 1,
       progress: 0,
       trust: false,
+      nameError: false,
+      emailError: false
     };
   }
 
-  formReset = () => {
+  loadInitialState = () => {
     this.setState({
       step: 1,
       progress: 0,
+      trust: false,
+      nameError: false,
+      emailError: false
     });
+  }
+
+  formReset = () => {
+    this.loadInitialState();
     const firstStepForm = document.querySelector("[data-step='1']");
     const secondStepForm = document.querySelector("[data-step='2']");
     if(firstStepForm){
@@ -41,6 +50,10 @@ class Contact extends Component{
   nextStep = () => {
     if(this.state.step >= 3)
       return;
+
+    if(this.state.step === 1){
+
+    }
 
     var currentStepQuery = "[data-step='" + this.state.step + "']";
     var nextStepQuery = "[data-step='" + (this.state.step + 1) + "']";
@@ -107,16 +120,30 @@ class Contact extends Component{
                 {/*Form Step 1*/}
                 <form action="" name="form-step-1">
                 <div className="form-step" data-step="1">
+
                   <p className="form-instructions"><strong>Please help me with your details</strong></p>
-				            <div className="fieldgroup">
-            					<input type="text" name="name" id="name" placeholder="I'm Parardha, and you are?"/>
-            					<label>Name</label>
-            				</div>
-	                  <div className="fieldgroup">
-          					     <input type="text" name="email" id="email" placeholder="I'll respond back on this mail id"/>
-          					     <label>Email</label>
-          				  </div>
-                  </div>
+
+			            <div className="fieldgroup">
+          					<input type="text" name="name" id="name" placeholder="I'm Parardha, and you are?"/>
+          					<label>
+
+                    {this.state.nameError ?
+                      <Error errorMessage="Let Yourself Be Known!"/>
+                      :
+                      "Name"
+                    }
+
+                    </label>
+          				</div>
+                  <div className="fieldgroup">
+        					     <input type="text" name="email" id="email" placeholder="I'll respond back on this mail id"/>
+                       {this.state.emailError ?
+                         <Error errorMessage="Please help me with your correct email id for me to reply."/>
+                         :
+                         "Email Id"
+                       }
+        				  </div>
+                </div>
 
                   {/*Form Step 2*/}
                   <div className="form-step hidden" data-step="2">
