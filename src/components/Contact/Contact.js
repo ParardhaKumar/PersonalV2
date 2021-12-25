@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 
 import './Contact.css';
 
@@ -8,6 +9,7 @@ class Contact extends Component{
     this.state = {
       step: 1,
       progress: 0,
+      trust: false,
     };
   }
 
@@ -37,7 +39,7 @@ class Contact extends Component{
   }
 
   nextStep = () => {
-    if(this.state.step >= 2)
+    if(this.state.step >= 3)
       return;
 
     var currentStepQuery = "[data-step='" + this.state.step + "']";
@@ -61,8 +63,15 @@ class Contact extends Component{
 
     this.setState({
       step: this.state.step + 1,
-      progress: this.state.progress + 33,
+      progress: this.state.progress + 50,
     });
+  }
+
+  captchaSuccess = () => {
+    console.log("Captcha is Successful.")
+    this.setState({
+      trust: true
+    })
   }
 
   render(){
@@ -82,15 +91,16 @@ class Contact extends Component{
               <div className="col form-progress">
                 <div className="form-progress">
                   <progress className="form-progress-bar" min="0" max="100" value={this.state.progress}
-                            step="33" aria-labelledby="form-progress-completion">
+                            step="50" aria-labelledby="form-progress-completion">
                   </progress>
                   <div className="form-progress-indicator one active" data-progressindictor="1"></div>
               		<div className="form-progress-indicator two" data-progressindictor="2"></div>
               		<div className="form-progress-indicator three" data-progressindictor="3"></div>
-              		<div className="form-progress-indicator four" data-progressindictor="4"></div>
                 </div>
               </div>
             </div>
+
+            <br></br>
 
             <div className="row">
               <div className="col">
@@ -99,11 +109,11 @@ class Contact extends Component{
                 <div className="form-step" data-step="1">
                   <p className="form-instructions"><strong>Please help me with your details</strong></p>
 				            <div className="fieldgroup">
-            					<input type="text" name="name" id="name" />
+            					<input type="text" name="name" id="name" placeholder="I'm Parardha, and you are?"/>
             					<label>Name</label>
             				</div>
 	                  <div className="fieldgroup">
-          					     <input type="text" name="email" id="email" />
+          					     <input type="text" name="email" id="email" placeholder="I'll respond back on this mail id"/>
           					     <label>Email</label>
           				  </div>
                   </div>
@@ -112,14 +122,35 @@ class Contact extends Component{
                   <div className="form-step hidden" data-step="2">
                       <p className="form-instructions"><strong>What's up?</strong></p>
                           <div className="fieldgroup">
-                              <input type="text" name="token" id="token" />
-                              <label>Token</label>
+                              <textarea id="w3review" name="w3review" rows="10" cols="50">
+                              </textarea>
                           </div>
                   </div>
 
-                  <div className="buttons">
-                      <button type="button" className="btn btn-alt js-reset" onClick={this.formReset}>Reset</button>
-                      <button type="button" className="btn" onClick={this.nextStep}>Continue</button>
+                  {/*Form Step 3*/}
+                  <div className="form-step hidden" data-step="3">
+                      <p className="form-instructions"><strong>I hate to do captchas too, but this helps me stay safe against Spammers!</strong></p>
+                          <div className="fieldgroup">
+                              <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" theme="dark" onChange={this.captchaSuccess} />
+                          </div>
+                  </div>
+
+                  <div>
+                      {this.state.step === 3 ?
+                        <div>
+                          {this.state.trust ? <button type="submit" className="btn">Submit</button>
+                          : ""
+                          }
+
+                        </div>
+                        :
+                        <div className="buttons">
+                        <button type="button" className="btn btn-alt js-reset" onClick={this.formReset}>Reset</button>
+                        <button type="button" className="btn" onClick={this.nextStep}>Continue</button>
+                        </div>
+
+                      }
+
                   </div>
 			            </form>
 

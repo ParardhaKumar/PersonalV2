@@ -58,6 +58,7 @@ progress::-webkit-progress-bar {
   transition: all .2s ease-in-out;
 	transition-delay: .3s;
 	will-change: transform;
+  margin: auto;
 }
 
 .one{
@@ -65,14 +66,10 @@ progress::-webkit-progress-bar {
 }
 
 .two{
-  left: 33%;
+  left: 50%;
 }
 
 .three{
-  left: 66%;
-}
-
-.four{
   left: 98%;
 }
 
@@ -115,7 +112,7 @@ progress::-webkit-progress-bar {
 	color: #fff;
 	background-color: #00AFE9;
 	padding: .8rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.2rem;
 	border-radius: 5px;
 	border: 2px solid transparent;
