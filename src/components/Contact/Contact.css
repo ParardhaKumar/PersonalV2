@@ -61,6 +61,10 @@
 	border-color: #00AFE9;
 }
 
+.completed {
+  background-color: #00AFE9;
+}
+
 .fieldgroup #name, #email{
   box-sizing: border-box;
   font-family: inherit;

@@ -18,16 +18,22 @@ class Contact extends Component{
     });
     const firstStepForm = document.querySelector("[data-step='1']");
     const secondStepForm = document.querySelector("[data-step='2']");
-    if(firstStepForm)
+    if(firstStepForm){
       firstStepForm.classList.remove('hidden');
-    if(secondStepForm)
-      secondStepForm.classList.add('hidden');
-
-    const formProgressIndicators = document.querySelectorAll("form-progress-indicator");
-    for(var i = 0; i < formProgressIndicators.length; i++){
-      console.log("Removing Active Class")
-      formProgressIndicators[i].remove('active');
     }
+
+    if(secondStepForm){
+      secondStepForm.classList.add('hidden');
+    }
+
+    const formProgressIndicators = document.querySelectorAll(".form-progress-indicator");
+    for(var i = 0; i < formProgressIndicators.length; i++){
+      formProgressIndicators[i].classList.remove('active');
+      formProgressIndicators[i].classList.remove('completed');
+    }
+
+    document.querySelector("[data-progressindictor='1'").classList.add('active');
+
   }
 
   nextStep = () => {
@@ -38,20 +44,19 @@ class Contact extends Component{
     var nextStepQuery = "[data-step='" + (this.state.step + 1) + "']";
     const currentStepForm = document.querySelector(currentStepQuery);
     const nextStepForm = document.querySelector(nextStepQuery);
-    console.log(nextStepQuery);
-    console.log(nextStepForm.classList);
-    if(currentStepForm)
+    if(currentStepForm){
       currentStepForm.classList.add('hidden');
+    }
+
     if(nextStepForm)
       nextStepForm.classList.remove('hidden');
 
-    const formProgressIndicators = document.querySelectorAll("form-progress-indicator");
-    for(var i = 0; i < formProgressIndicators.length; i++){
-      formProgressIndicators[i].remove('active');
-    }
+    var currentformProgressIndicatorQuery = "[data-progressindictor='" + this.state.step + "']";
     var nextformProgressIndicatorQuery = "[data-progressindictor='" + (this.state.step + 1) + "']";
+    const currentformProgressIndicator = document.querySelector(currentformProgressIndicatorQuery);
     const nextformProgressIndicator = document.querySelector(nextformProgressIndicatorQuery);
 
+    currentformProgressIndicator.classList.add('completed');
     nextformProgressIndicator.classList.add('active');
 
     this.setState({
@@ -96,11 +101,11 @@ class Contact extends Component{
 
             				<div className="fieldgroup">
             					<input type="text" name="name" id="name" />
-            					<label for="name">Name</label>
+            					<label>Name</label>
             				</div>
 	                  <div className="fieldgroup">
           					     <input type="text" name="email" id="email" />
-          					     <label for="email">Email</label>
+          					     <label>Email</label>
           				  </div>
                   </div>
 
@@ -109,7 +114,7 @@ class Contact extends Component{
                       <p className="form-instructions"><strong>What's up?</strong></p>
                           <div className="fieldgroup">
                               <input type="text" name="token" id="token" />
-                              <label for="token">Token</label>
+                              <label>Token</label>
                           </div>
 
                   </div>
