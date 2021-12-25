@@ -14,6 +14,11 @@
   max-height: 80vh;
   max-width: 70vw;
   margin: auto;
+  height: 100%;
+}
+
+.form{
+  height: 100%;
 }
 
 .form-progress{
@@ -24,6 +29,22 @@
 
 .form-progress-bar{
   width: 100%;
+}
+
+progress {
+  color: red;
+}
+
+progress::-moz-progress-bar {
+  color: red;
+}
+
+progress::-webkit-progress-value {
+  color: red;
+}
+
+progress::-webkit-progress-bar {
+  color: red;
 }
 
 .form-progress-indicator{
@@ -88,4 +109,29 @@
 
 .hidden {
 	display: none;
+}
+
+.btn {
+	color: #fff;
+	background-color: #00AFE9;
+	padding: .8rem;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	min-width: 45px !important;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 5vh;
+	display: flex;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.btn-alt {
+	background-color: transparent;
+	color: #00AFE9;
+	border: 2px solid #00AFE9;
 }

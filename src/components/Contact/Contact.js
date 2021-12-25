@@ -69,7 +69,7 @@ class Contact extends Component{
     return(
       <div className="contact-page">
         <div className="form-container">
-          <div className="container">
+          <div className="container form">
             {/*Header*/}
             <div className="row">
               <div className="col form-header">
@@ -91,15 +91,14 @@ class Contact extends Component{
                 </div>
               </div>
             </div>
-            {/*Form Step 1*/}
+
             <div className="row">
               <div className="col">
+                {/*Form Step 1*/}
                 <form action="" name="form-step-1">
                 <div className="form-step" data-step="1">
                   <p className="form-instructions"><strong>Please help me with your details</strong></p>
-
-
-            				<div className="fieldgroup">
+				            <div className="fieldgroup">
             					<input type="text" name="name" id="name" />
             					<label>Name</label>
             				</div>
@@ -109,14 +108,13 @@ class Contact extends Component{
           				  </div>
                   </div>
 
+                  {/*Form Step 2*/}
                   <div className="form-step hidden" data-step="2">
-
                       <p className="form-instructions"><strong>What's up?</strong></p>
                           <div className="fieldgroup">
                               <input type="text" name="token" id="token" />
                               <label>Token</label>
                           </div>
-
                   </div>
 
                   <div className="buttons">
