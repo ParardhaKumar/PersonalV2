@@ -6,12 +6,11 @@ import { media } from './SocialMedia';
 class SocialIcons extends Component{
   render(){
     return(
-      <div class="container flex">
+      <div className="container flex">
           { media.map(social => (
-            <div class="mySocialMediaIcons">
+            <div className="mySocialMediaIcons">
               <a href={social.url} target="_blank">
-              <img src={social.image}>
-              </img>
+              <img src={social.image} alt=""></img>
               </a>
               </div>
             ))

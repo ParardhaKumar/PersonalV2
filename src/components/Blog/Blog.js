@@ -7,12 +7,12 @@ class Blog extends Component{
   render(){
     return(
       <div>
-        <div class="blog-container">
+        <div className="blog-container">
 
-            <div class = "article">
-              <h4 class = "datestamp"> February 27 2018 </h4>
-              <h2 class = "heading"> This is my First Article </h2>
-              <p class = "opening-para">An Omniscient knowing without sight or thought,
+            <div class="article">
+              <h4 class="datestamp"> February 27 2018 </h4>
+              <h2 class="heading"> This is my First Article </h2>
+              <p class="opening-para">An Omniscient knowing without sight or thought,
                  An indecipherable Omnipotence,
                  A mystic Form that could contain the worlds,
                  Yet make one human breast its passionate shrine,
@@ -24,10 +24,10 @@ class Blog extends Component{
               <hr></hr>
             </div>
 
-            <div class = "article">
-              <h4 class = "datestamp"> February 26 2018 </h4>
-              <h2 class = "heading"> This is my Second Article </h2>
-              <p class = "opening-para">A fire that seemed the body of a god
+            <div class="article">
+              <h4 class="datestamp"> February 26 2018 </h4>
+              <h2 class="heading"> This is my Second Article </h2>
+              <p class="opening-para">A fire that seemed the body of a god
                   Consumed the limiting figures of the past
                   And made large room for a new self to live.
               </p>
