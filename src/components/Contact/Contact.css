@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+.contact-page{
+  font-family: 'Sen', sans-serif;
+}
+
+.form-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 10px solid #bdc3c7;
+  max-height: 80vh;
+  max-width: 70vw;
+  margin: auto;
+  height: 100%;
+}
+
+.form{
+  height: 100%;
+}
+
+.form-progress{
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-progress-bar{
+  width: 100%;
+}
+
+progress {
+  color: red;
+}
+
+progress::-moz-progress-bar {
+  color: red;
+}
+
+progress::-webkit-progress-value {
+  color: red;
+}
+
+progress::-webkit-progress-bar {
+  color: red;
+}
+
+.form-progress-indicator{
+  position: absolute;
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border: 3px solid #ddd;
+	border-radius: 50%;
+  transition: all .2s ease-in-out;
+	transition-delay: .3s;
+	will-change: transform;
+  margin: auto;
+}
+
+.one{
+  left: 0;
+}
+
+.two{
+  left: 50%;
+}
+
+.three{
+  left: 98%;
+}
+
+.active {
+	animation: bounce .5s forwards;
+	animation-delay: .5s;
+	border-color: #00AFE9;
+}
+
+.completed {
+  background-color: #00AFE9;
+}
+
+.fieldgroup #name, #email{
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  vertical-align: baseline;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: .16px;
+  border-radius: 0;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  background-color: #f4f4f4;
+  padding: 0 16px;
+  color: #161616;
+  transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);
+}
+
+.captcha{
+  width: 100% !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn {
+	color: #fff;
+	background-color: #00AFE9;
+	padding: .8rem;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	min-width: 45px !important;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 5vh;
+	display: flex;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.btn-alt {
+	background-color: transparent;
+	color: #00AFE9;
+	border: 2px solid #00AFE9;
+}
+
+textarea{
+  width: 100%;
+}
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3){
+  .rc-anchor-normal{
+    height: 74px;
+    width: 67% !important;
+  }
+}

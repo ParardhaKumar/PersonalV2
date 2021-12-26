@@ -318,7 +318,7 @@ $(document).ready(function(){
 <script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-605c52953eea6eff"></script>
 </head>
 
-<body class="post-template-default single single-post postid-77142 single-format-standard bg singular">
+<body className="post-template-default single single-post postid-77142 single-format-standard bg singular">
 <script>
   (function(){
     if(typeof _bsa !== 'undefined' && _bsa) {
@@ -328,11 +328,11 @@ $(document).ready(function(){
 </script>
 		<div id="navigation" " role="banner">
 
-			<nav id="access" class="container_16 containermargin" role="navigation">
-			<div class="nav1">
-				<h3 class="assistive-text">Main menu</h3>
-								<div class="skip-link screen-reader-text"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
-                <div id="mobilemenu" class="notonscreen">
+			<nav id="access" className="container_16 containermargin" role="navigation">
+			<div className="nav1">
+				<h3 className="assistive-text">Main menu</h3>
+								<div className="skip-link screen-reader-text"><a className="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+                <div id="mobilemenu" className="notonscreen">
                     <div align="center" style="padding:10px;">
                     	<a href="https://www.pngplay.com/" title="PNG Play">
                     	                        	        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%2030'%3E%3C/svg%3E" alt="PNG Play" width="200" height="30" data-lazy-src="https://pngplay.com/wp-content/uploads/1/logo.jpg"><noscript><img src="https://pngplay.com/wp-content/uploads/1/logo.jpg" alt="PNG Play" width="200" height="30"></noscript>
@@ -340,33 +340,33 @@ $(document).ready(function(){
                     </div>
                     <div style="clear:both;"></div>
                 </div>
-                <div class="sf-logomenu notonmobile">
+                <div className="sf-logomenu notonmobile">
                     <p>
                     	<a href="https://www.pngplay.com/">
                     		                    	        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%2030'%3E%3C/svg%3E" alt="PNG Play" width="200" height="30" data-lazy-src="https://pngplay.com/wp-content/uploads/1/logo.jpg"><noscript><img src="https://pngplay.com/wp-content/uploads/1/logo.jpg" alt="PNG Play" width="200" height="30"></noscript>
                     	                            </a>
                     </p>
                 </div>
-								<div class="menu-top-container"><ul id="primary" class="s_style sf-menu sf-js-enabled sf-arrows"><li id="menu-item-3766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3766"><a href="/">Home</a></li>
-<li id="menu-item-14416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14416"><a href="https://www.pngplay.com/categories">Categories</a></li>
-<li id="menu-item-84784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84784"><a href="https://www.pngplay.com/about">About</a></li>
-<li id="menu-item-4938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4938"><a href="https://www.pngplay.com/contact">Contact</a></li>
-<li id="menu-item-84783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84783"><a href="https://www.pngplay.com/copyright-policy">Copyright Policy</a></li>
+								<div className="menu-top-container"><ul id="primary" className="s_style sf-menu sf-js-enabled sf-arrows"><li id="menu-item-3766" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3766"><a href="/">Home</a></li>
+<li id="menu-item-14416" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-14416"><a href="https://www.pngplay.com/categories">Categories</a></li>
+<li id="menu-item-84784" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-84784"><a href="https://www.pngplay.com/about">About</a></li>
+<li id="menu-item-4938" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4938"><a href="https://www.pngplay.com/contact">Contact</a></li>
+<li id="menu-item-84783" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-84783"><a href="https://www.pngplay.com/copyright-policy">Copyright Policy</a></li>
 </ul></div>
-				<div class="sf-socialmenu notonmobile">
-				<ul class="social_special">
-					<li><a href="https://www.pngplay.com/feed" target="_blank"><i class="fa fa-rss"></i></a></li>
+				<div className="sf-socialmenu notonmobile">
+				<ul className="social_special">
+					<li><a href="https://www.pngplay.com/feed" target="_blank"><i className="fa fa-rss"></i></a></li>
 							
 		            
 		            			    </ul>
 			    </div>
 
-				<ul id="iconmenu" class="sf-menu sf-js-enabled">
-                    <li id="searchicon" class="notonmobile icon-search"><a href="" class="sf-with-ul"></a>
-                        <ul id="searchul" class="sub-menu" style="left: auto; right: 0px;">
-                            <li><form role="search" method="get" id="searchform" class="searchform" action="https://www.pngplay.com/">
+				<ul id="iconmenu" className="sf-menu sf-js-enabled">
+                    <li id="searchicon" className="notonmobile icon-search"><a href="" className="sf-with-ul"></a>
+                        <ul id="searchul" className="sub-menu" style="left: auto; right: 0px;">
+                            <li><form role="search" method="get" id="searchform" className="searchform" action="https://www.pngplay.com/">
     <div>
-    <label class="screen-reader-text" for="s">Search for:</label>
+    <label className="screen-reader-text" for="s">Search for:</label>
     <input type="text" value="" name="s" id="s">
     <input type="submit" id="searchsubmit" value="Go">
     </div>
@@ -381,14 +381,14 @@ $(document).ready(function(){
 
 	</div><!-- #navigation -->
 
-    <div id="wrapper" class="hfeed">
-	    <div id="contentcontainer" class="container_16 containermargin">
+    <div id="wrapper" className="hfeed">
+	    <div id="contentcontainer" className="container_16 containermargin">
         
             <nav id="nav-single">
 
 			</nav><!-- #nav-single -->
 
-			<div id="content" class="grid_10" role="main">
+			<div id="content" className="grid_10" role="main">
 
 						<div style="clear:both;"></div>
 
@@ -400,21 +400,21 @@ $(document).ready(function(){
 	<header>
 		
 		<br>
-		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+		<div className="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
     <!-- Breadcrumb NavXT 6.4.0 -->
-<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home" href="https://www.pngplay.com" class="home" ><span property="name">Home</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Alphabets category" href="https://www.pngplay.com/image/category/alphabets" class="taxonomy category" ><span property="name">Alphabets</span></a><meta property="position" content="2"></span> &gt; <span class="post post-post current-item">Alphabet P PNG Photo Image</span></div>
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home" href="https://www.pngplay.com" className="home" ><span property="name">Home</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Alphabets category" href="https://www.pngplay.com/image/category/alphabets" className="taxonomy category" ><span property="name">Alphabets</span></a><meta property="position" content="2"></span> &gt; <span className="post post-post current-item">Alphabet P PNG Photo Image</span></div>
 		
-		<h1 class="entry-title">Alphabet P PNG Photo Image</h1>
+		<h1 className="entry-title">Alphabet P PNG Photo Image</h1>
 
 	</header><!-- .entry-header -->
     <p>
 		Download free Alphabet P PNG Photo Image  filed under Alphabets  with its associated tags Letter P,  available in a high-quality transparent PNG image. This file was uploaded by user: <a href="https://www.pngplay.com/image/author/arsh" title="Posts by Arsh" rel="author">Arsh</a> on Aug, 13th, 2020. The exact dimension of this transparent background PNG is 2000x2000 with the total size of 12 Kb resolution.
 		</p>
 
-	<div class="entry-content">
+	<div className="entry-content">
 
 
-<p><a href="https://www.pngplay.com/image/77142/png-download/77141"  title="Alphabet P PNG Photo Image" alt="Alphabet P PNG Photo Image" target="_blank" ><img width="2000" height="2000" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202000%202000'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="Alphabet P PNG Photo Image" data-lazy-src="https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Photo-Image.png" /><noscript><img width="2000" height="2000" src="https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Photo-Image.png" class="attachment-full size-full wp-post-image" alt="Alphabet P PNG Photo Image" /></noscript></a><br><br><strong>PNG File Name:</strong> Alphabet P PNG Photo Image<br><strong>Dimension:</strong> 2000x2000<br><strong>Size</strong>: 12 Kb<br>
+<p><a href="https://www.pngplay.com/image/77142/png-download/77141"  title="Alphabet P PNG Photo Image" alt="Alphabet P PNG Photo Image" target="_blank" ><img width="2000" height="2000" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202000%202000'%3E%3C/svg%3E" className="attachment-full size-full wp-post-image" alt="Alphabet P PNG Photo Image" data-lazy-src="https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Photo-Image.png" /><noscript><img width="2000" height="2000" src="https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Photo-Image.png" className="attachment-full size-full wp-post-image" alt="Alphabet P PNG Photo Image" /></noscript></a><br><br><strong>PNG File Name:</strong> Alphabet P PNG Photo Image<br><strong>Dimension:</strong> 2000x2000<br><strong>Size</strong>: 12 Kb<br>
 	<strong>Image Format:</strong> .png<br>
 <strong>Uploaded on:</strong> Aug, 13th, 2020<br>
 <strong>Uploader:</strong> <a href="https://www.pngplay.com/image/author/arsh" title="Posts by Arsh" rel="author">Arsh</a><br>
@@ -423,7 +423,7 @@ $(document).ready(function(){
 </p>
 <div>
 <br>
-<center><a href="https://www.pngplay.com/image/77142/png-download/77141" class="download" target="_blank">Download PNG Now 📥</a></center>
+<center><a href="https://www.pngplay.com/image/77142/png-download/77141" className="download" target="_blank">Download PNG Now 📥</a></center>
 </div>
 <br>
 
@@ -437,17 +437,17 @@ $(document).ready(function(){
 <b>Embed HTML/Forum Codes:</b>
 <br>
                     <label>Short URL:</label>
-                    <input class="boxround" type="text" size="35" value="https://www.pngplay.com/?p=77142" onclick="this.focus(); this.select();">
+                    <input className="boxround" type="text" size="35" value="https://www.pngplay.com/?p=77142" onclick="this.focus(); this.select();">
                     <label>Page link:</label>
-                    <input class="boxround" type="text" size="35" value="https://www.pngplay.com/image/77142" onclick="this.focus(); this.select();">
+                    <input className="boxround" type="text" size="35" value="https://www.pngplay.com/image/77142" onclick="this.focus(); this.select();">
                     <label>For Website and Blog (HTML):</label>
-                    <input class="boxround" type="text" size="35" value="<a href=https://www.pngplay.com/image/77142 target=&quot;_blank&quot;>Alphabet P PNG Photo Image</a>" onclick="this.focus(); this.select();">
+                    <input className="boxround" type="text" size="35" value="<a href=https://www.pngplay.com/image/77142 target=&quot;_blank&quot;>Alphabet P PNG Photo Image</a>" onclick="this.focus(); this.select();">
                     <label>Forum BBCode:</label>
-                    <input class="boxround" type="text" size="35" value="[url=https://www.pngplay.com/image/77142 Alphabet P PNG Photo Image[/url]" onclick="this.focus(); this.select();">
+                    <input className="boxround" type="text" size="35" value="[url=https://www.pngplay.com/image/77142 Alphabet P PNG Photo Image[/url]" onclick="this.focus(); this.select();">
 		
 			</div><!-- .entry-content -->
 	<br>
-	<div class="facebook-like">
+	<div className="facebook-like">
 		<div id="leftcolumn">Follow <a href="https://www.pngplay.com/image/author/arsh">Arsh</a>  for amazing daily stuff &rarr;&nbsp</div>
 				
 		
@@ -456,35 +456,35 @@ $(document).ready(function(){
     
 	
 
-	<footer class="entry-meta">
+	<footer className="entry-meta">
 		
 			</footer><!-- .entry-meta -->
 </article><!-- #post-77142 -->
-<!-- relpost-thumb-wrapper --><div class="relpost-thumb-wrapper"><!-- filter-class --><div class="relpost-thumb-container"><h3>Related PNG Images:</h3><div style="clear: both"></div><div style="clear: both"></div><!-- relpost-block-container --><div class="relpost-block-container"><a class="relpost-block-single" href="https://www.pngplay.com/image/6161"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Letter P PNG HD Free Image"  alt="Letter P PNG HD Free Image"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-HD-Free-Image-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/6165"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Letter P PNG Photo"  alt="Letter P PNG Photo"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-Photo-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/6167"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Letter P PNG Royalty-Free High-Quality"  alt="Letter P PNG Royalty-Free High-Quality"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-Royalty-Free-High-Quality-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/76670"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P PNG Photos"  alt="Alphabet P PNG Photos"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/4/Alphabet-P-PNG-Photos-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/76782"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P Background PNG"  alt="Alphabet P Background PNG"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Background-PNG-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/76936"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P No Background"  alt="Alphabet P No Background"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-No-Background-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/77090"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P Transparent Image"  alt="Alphabet P Transparent Image"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Transparent-Image-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/77260"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P Download Free PNG"  alt="Alphabet P Download Free PNG"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Download-Free-PNG-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a class="relpost-block-single" href="https://www.pngplay.com/image/77268"><div data-bg="/png.png" class="rocket-lazyload" style="width: 220px; height: 240px;  "><div class="relpost-block-single-image" title="Alphabet P PNG Clipart Background"  alt="Alphabet P PNG Clipart Background"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Clipart-Background-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a></div><!-- close relpost-block-container --><div style="clear: both"></div></div><!-- close filter class --></div><!-- close relpost-thumb-wrapper -->
+<!-- relpost-thumb-wrapper --><div className="relpost-thumb-wrapper"><!-- filter-class --><div className="relpost-thumb-container"><h3>Related PNG Images:</h3><div style="clear: both"></div><div style="clear: both"></div><!-- relpost-block-container --><div className="relpost-block-container"><a className="relpost-block-single" href="https://www.pngplay.com/image/6161"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Letter P PNG HD Free Image"  alt="Letter P PNG HD Free Image"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-HD-Free-Image-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/6165"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Letter P PNG Photo"  alt="Letter P PNG Photo"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-Photo-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/6167"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Letter P PNG Royalty-Free High-Quality"  alt="Letter P PNG Royalty-Free High-Quality"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/1/Letter-P-PNG-Royalty-Free-High-Quality-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/76670"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P PNG Photos"  alt="Alphabet P PNG Photos"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/4/Alphabet-P-PNG-Photos-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/76782"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P Background PNG"  alt="Alphabet P Background PNG"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Background-PNG-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/76936"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P No Background"  alt="Alphabet P No Background"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-No-Background-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/77090"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P Transparent Image"  alt="Alphabet P Transparent Image"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Transparent-Image-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/77260"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P Download Free PNG"  alt="Alphabet P Download Free PNG"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-Download-Free-PNG-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a><a className="relpost-block-single" href="https://www.pngplay.com/image/77268"><div data-bg="/png.png" className="rocket-lazyload" style="width: 220px; height: 240px;  "><div className="relpost-block-single-image" title="Alphabet P PNG Clipart Background"  alt="Alphabet P PNG Clipart Background"  style=" background: transparent url(https://www.pngplay.com/wp-content/uploads/5/Alphabet-P-PNG-Clipart-Background-220x220.png) no-repeat scroll 0% 0%; width: 220px; height: 220px; "></div></div></a></div><!-- close relpost-block-container --><div style="clear: both"></div></div><!-- close filter class --></div><!-- close relpost-thumb-wrapper -->
 
 
 					
 			</div><!-- #content -->
 
 		
-			<div id="sidebar" class="grid_6" role="complementary">
-	<div id="primary" class="widget-area">
-		<div class="xoxo">
+			<div id="sidebar" className="grid_6" role="complementary">
+	<div id="primary" className="widget-area">
+		<div className="xoxo">
 
-			<aside id="search-2" class="widget widget_search"><h3 class="widget-title">Search PNG Images</h3><form role="search" method="get" id="searchform" class="searchform" action="https://www.pngplay.com/">
+			<aside id="search-2" className="widget widget_search"><h3 className="widget-title">Search PNG Images</h3><form role="search" method="get" id="searchform" className="searchform" action="https://www.pngplay.com/">
     <div>
-    <label class="screen-reader-text" for="s">Search for:</label>
+    <label className="screen-reader-text" for="s">Search for:</label>
     <input type="text" value="" name="s" id="s">
     <input type="submit" id="searchsubmit" value="Go">
     </div>
 </form>
-</aside><aside id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div id="PNGPLAY-PapayAds-SIDEBAR-Banner" align="center">
+</aside><aside id="custom_html-7" className="widget_text widget widget_custom_html"><div className="textwidget custom-html-widget"><div id="PNGPLAY-PapayAds-SIDEBAR-Banner" align="center">
 <div id='div-gpt-ad-1611678504354-0'>
   <script type="rocketlazyloadscript">
     googletag.cmd.push(function() { googletag.display('div-gpt-ad-1611678504354-0'); });
   </script>
 </div>
-</div></div></aside><aside id="wp_categories_widget-2" class="widget widget_wp_categories_widget"><h3 class="widget-title">Categories</h3><div class="ve-cat-widget-div"><ul class="ve-cat-widget-listing"><li ><a href="https://www.pngplay.com/image/category/alphabets">Alphabets</a><span class="post-count">711</span></li><li ><a href="https://www.pngplay.com/image/category/animals">Animals</a><span class="post-count">5665</span></li><li ><a href="https://www.pngplay.com/image/category/artistic">Artistic</a><span class="post-count">2189</span></li><li ><a href="https://www.pngplay.com/image/category/beauty">Beauty</a><span class="post-count">41</span></li><li ><a href="https://www.pngplay.com/image/category/business">Business</a><span class="post-count">397</span></li><li ><a href="https://www.pngplay.com/image/category/buttons">Buttons</a><span class="post-count">144</span></li><li ><a href="https://www.pngplay.com/image/category/cartoon">Cartoon</a><span class="post-count">2197</span></li><li ><a href="https://www.pngplay.com/image/category/clothing-fashion">Clothing &amp; Fashion</a><span class="post-count">1861</span></li><li ><a href="https://www.pngplay.com/image/category/education">Education</a><span class="post-count">389</span></li><li ><a href="https://www.pngplay.com/image/category/electronics">Electronics</a><span class="post-count">357</span></li><li ><a href="https://www.pngplay.com/image/category/fantasy">Fantasy</a><span class="post-count">1367</span></li><li ><a href="https://www.pngplay.com/image/category/fiction">Fiction</a><span class="post-count">1001</span></li><li ><a href="https://www.pngplay.com/image/category/flags">Flags</a><span class="post-count">4500</span></li><li ><a href="https://www.pngplay.com/image/category/food">Food</a><span class="post-count">4464</span></li><li ><a href="https://www.pngplay.com/image/category/games">Games</a><span class="post-count">1519</span></li><li ><a href="https://www.pngplay.com/image/category/gems-and-jewels">Gems and Jewels</a><span class="post-count">101</span></li><li ><a href="https://www.pngplay.com/image/category/gestures">Gestures</a><span class="post-count">112</span></li><li ><a href="https://www.pngplay.com/image/category/holidays">Holidays</a><span class="post-count">2262</span></li><li ><a href="https://www.pngplay.com/image/category/internet">Internet</a><span class="post-count">3218</span></li><li ><a href="https://www.pngplay.com/image/category/kids">Kids</a><span class="post-count">58</span></li><li ><a href="https://www.pngplay.com/image/category/love">Love</a><span class="post-count">330</span></li><li ><a href="https://www.pngplay.com/image/category/more">More</a><span class="post-count">1048</span></li><li ><a href="https://www.pngplay.com/image/category/music">Music</a><span class="post-count">1320</span></li><li ><a href="https://www.pngplay.com/image/category/nature">Nature</a><span class="post-count">1928</span></li><li ><a href="https://www.pngplay.com/image/category/numbers">Numbers</a><span class="post-count">395</span></li><li ><a href="https://www.pngplay.com/image/category/objects">Objects</a><span class="post-count">5962</span></li><li ><a href="https://www.pngplay.com/image/category/people">People</a><span class="post-count">2796</span></li><li ><a href="https://www.pngplay.com/image/category/shapes-arrows">Shapes &amp; Arrows</a><span class="post-count">56</span></li><li ><a href="https://www.pngplay.com/image/category/sports">Sports</a><span class="post-count">2478</span></li><li ><a href="https://www.pngplay.com/image/category/technology">Technology</a><span class="post-count">592</span></li><li ><a href="https://www.pngplay.com/image/category/tools-hardware">Tools &amp; Hardware</a><span class="post-count">273</span></li><li ><a href="https://www.pngplay.com/image/category/vehicles">Vehicles</a><span class="post-count">1998</span></li><li ><a href="https://www.pngplay.com/image/category/world">World</a><span class="post-count">1471</span></li></ul></div></aside>		</div><!-- .xoxo -->
+</div></div></aside><aside id="wp_categories_widget-2" className="widget widget_wp_categories_widget"><h3 className="widget-title">Categories</h3><div className="ve-cat-widget-div"><ul className="ve-cat-widget-listing"><li ><a href="https://www.pngplay.com/image/category/alphabets">Alphabets</a><span className="post-count">711</span></li><li ><a href="https://www.pngplay.com/image/category/animals">Animals</a><span className="post-count">5665</span></li><li ><a href="https://www.pngplay.com/image/category/artistic">Artistic</a><span className="post-count">2189</span></li><li ><a href="https://www.pngplay.com/image/category/beauty">Beauty</a><span className="post-count">41</span></li><li ><a href="https://www.pngplay.com/image/category/business">Business</a><span className="post-count">397</span></li><li ><a href="https://www.pngplay.com/image/category/buttons">Buttons</a><span className="post-count">144</span></li><li ><a href="https://www.pngplay.com/image/category/cartoon">Cartoon</a><span className="post-count">2197</span></li><li ><a href="https://www.pngplay.com/image/category/clothing-fashion">Clothing &amp; Fashion</a><span className="post-count">1861</span></li><li ><a href="https://www.pngplay.com/image/category/education">Education</a><span className="post-count">389</span></li><li ><a href="https://www.pngplay.com/image/category/electronics">Electronics</a><span className="post-count">357</span></li><li ><a href="https://www.pngplay.com/image/category/fantasy">Fantasy</a><span className="post-count">1367</span></li><li ><a href="https://www.pngplay.com/image/category/fiction">Fiction</a><span className="post-count">1001</span></li><li ><a href="https://www.pngplay.com/image/category/flags">Flags</a><span className="post-count">4500</span></li><li ><a href="https://www.pngplay.com/image/category/food">Food</a><span className="post-count">4464</span></li><li ><a href="https://www.pngplay.com/image/category/games">Games</a><span className="post-count">1519</span></li><li ><a href="https://www.pngplay.com/image/category/gems-and-jewels">Gems and Jewels</a><span className="post-count">101</span></li><li ><a href="https://www.pngplay.com/image/category/gestures">Gestures</a><span className="post-count">112</span></li><li ><a href="https://www.pngplay.com/image/category/holidays">Holidays</a><span className="post-count">2262</span></li><li ><a href="https://www.pngplay.com/image/category/internet">Internet</a><span className="post-count">3218</span></li><li ><a href="https://www.pngplay.com/image/category/kids">Kids</a><span className="post-count">58</span></li><li ><a href="https://www.pngplay.com/image/category/love">Love</a><span className="post-count">330</span></li><li ><a href="https://www.pngplay.com/image/category/more">More</a><span className="post-count">1048</span></li><li ><a href="https://www.pngplay.com/image/category/music">Music</a><span className="post-count">1320</span></li><li ><a href="https://www.pngplay.com/image/category/nature">Nature</a><span className="post-count">1928</span></li><li ><a href="https://www.pngplay.com/image/category/numbers">Numbers</a><span className="post-count">395</span></li><li ><a href="https://www.pngplay.com/image/category/objects">Objects</a><span className="post-count">5962</span></li><li ><a href="https://www.pngplay.com/image/category/people">People</a><span className="post-count">2796</span></li><li ><a href="https://www.pngplay.com/image/category/shapes-arrows">Shapes &amp; Arrows</a><span className="post-count">56</span></li><li ><a href="https://www.pngplay.com/image/category/sports">Sports</a><span className="post-count">2478</span></li><li ><a href="https://www.pngplay.com/image/category/technology">Technology</a><span className="post-count">592</span></li><li ><a href="https://www.pngplay.com/image/category/tools-hardware">Tools &amp; Hardware</a><span className="post-count">273</span></li><li ><a href="https://www.pngplay.com/image/category/vehicles">Vehicles</a><span className="post-count">1998</span></li><li ><a href="https://www.pngplay.com/image/category/world">World</a><span className="post-count">1471</span></li></ul></div></aside>		</div><!-- .xoxo -->
 	</div><!-- .widget-area -->
 </div><!-- #sidebar .widget-area -->
 <div style="clear:both;"></div>
@@ -494,20 +494,20 @@ $(document).ready(function(){
 </div><!-- #wrapper -->
 
 <div id="footer">
-	<div id="colophon" class="container_16 containermargin" role="contentinfo">
+	<div id="colophon" className="container_16 containermargin" role="contentinfo">
 		<div id="footer-info">
 			<div id="copyright">&copy; 2021 <a href="https://www.pngplay.com/" title="PNG Play">PNG Play</a></div>
-			<div class="menu footernav"><ul id="menu-footer-navigation" class="menu"><li id="menu-item-655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-655"><a href="/">Home</a></li>
-<li id="menu-item-656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-656"><a href="https://www.pngplay.com/about">About</a></li>
-<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="https://www.pngplay.com/contact">Contact</a></li>
-<li id="menu-item-83233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83233"><a href="https://www.pngplay.com/cookie-policy">Cookie Policy</a></li>
-<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a title="Terms &#038; Conditions" href="https://www.pngplay.com/terms-conditions">T&#038;C</a></li>
-<li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-660"><a title="Privacy Policy" href="https://www.pngplay.com/privacy-policy">Privacy</a></li>
-<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a title="Copyright Policy" href="https://www.pngplay.com/copyright-policy">Copyright</a></li>
-<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="https://www.pngplay.com/dmca">DMCA</a></li>
-<li id="menu-item-5679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5679"><a href="/sitemapindex.xml/">Sitemap</a></li>
+			<div className="menu footernav"><ul id="menu-footer-navigation" className="menu"><li id="menu-item-655" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-655"><a href="/">Home</a></li>
+<li id="menu-item-656" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-656"><a href="https://www.pngplay.com/about">About</a></li>
+<li id="menu-item-657" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="https://www.pngplay.com/contact">Contact</a></li>
+<li id="menu-item-83233" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-83233"><a href="https://www.pngplay.com/cookie-policy">Cookie Policy</a></li>
+<li id="menu-item-661" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a title="Terms &#038; Conditions" href="https://www.pngplay.com/terms-conditions">T&#038;C</a></li>
+<li id="menu-item-660" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-660"><a title="Privacy Policy" href="https://www.pngplay.com/privacy-policy">Privacy</a></li>
+<li id="menu-item-658" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a title="Copyright Policy" href="https://www.pngplay.com/copyright-policy">Copyright</a></li>
+<li id="menu-item-659" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="https://www.pngplay.com/dmca">DMCA</a></li>
+<li id="menu-item-5679" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-5679"><a href="/sitemapindex.xml/">Sitemap</a></li>
 </ul></div>		</div>
-		<div class="clear"></div>
+		<div className="clear"></div>
 		<div id="site-generator">
 						
 		</div>
