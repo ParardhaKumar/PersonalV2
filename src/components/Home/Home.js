@@ -25,7 +25,7 @@ class Home extends Component{
           </div>
           <div className="hero__text">
             <h1 className="hero__title">
-              {Content.heading}	&#128075;
+              {Content.heading}	<span id="name">Parardha</span> &#128075;
             </h1>
             <p className="hero__description">
               {Content.i}<Typewriter
@@ -145,10 +145,10 @@ class Home extends Component{
 
         <section className="featured">
           <div className="container">
-            <header className="featured__header flex">
+            <div className="container">
               <h2 className="featured__title">Timeline</h2>
               <hr></hr>
-            </header>
+            </div>
             <br></br>
             <Timeline/>
           </div>

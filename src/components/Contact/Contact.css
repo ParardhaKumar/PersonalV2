@@ -104,6 +104,10 @@ progress::-webkit-progress-bar {
   transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);
 }
 
+.captcha{
+  width: 100% !important;
+}
+
 .hidden {
 	display: none;
 }

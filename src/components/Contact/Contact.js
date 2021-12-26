@@ -158,7 +158,12 @@ class Contact extends Component{
                   <div className="form-step hidden" data-step="3">
                       <p className="form-instructions"><strong>I hate to do captchas too, but this helps me stay safe against Spammers!</strong></p>
                           <div className="fieldgroup">
-                              <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" theme="dark" onChange={this.captchaSuccess} />
+                              <ReCAPTCHA
+                              style={{ display: "inline-block" }}
+                              sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                              theme="dark"
+                              onChange={this.captchaSuccess}
+                              size="compact"/>
                           </div>
                   </div>
 
