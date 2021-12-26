@@ -104,6 +104,10 @@ progress::-webkit-progress-bar {
   transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);
 }
 
+.captcha{
+  width: 100% !important;
+}
+
 .hidden {
 	display: none;
 }
@@ -135,4 +139,14 @@ progress::-webkit-progress-bar {
 
 textarea{
   width: 100%;
+}
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3){
+  .rc-anchor-normal{
+    height: 74px;
+    width: 67% !important;
+  }
 }
