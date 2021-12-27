@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+import Swal from 'sweetalert2';
 
 import './Contact.css';
 import Error from './Error'
@@ -29,9 +28,8 @@ class Contact extends Component{
   }
 
   submitContactForm = () => {
-    const ContactFormSwal = withReactContent(Swal)
 
-    ContactFormSwal.fire({
+    Swal.fire({
         title: 'Note Dropped',
         width: 300,
         imageUrl: "/thank-you.gif",
