@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 import './Contact.css';
 import Error from './Error'
@@ -24,6 +26,24 @@ class Contact extends Component{
       nameError: false,
       emailError: false
     });
+  }
+
+  submitContactForm = () => {
+    const ContactFormSwal = withReactContent(Swal)
+
+    ContactFormSwal.fire({
+        title: 'Note Dropped',
+        width: 300,
+        imageUrl: "/thank-you.gif",
+        padding: '1em',
+        timer: 3000,
+        showConfirmButton: false,
+        timerProgressBar: true,
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+      }).then(() => {
+            this.props.history.push({pathname: "/"});
+          })
   }
 
   validateEmail = (email) => {
@@ -173,7 +193,7 @@ class Contact extends Component{
             <div className="row">
               <div className="col">
                 {/*Form Step 1*/}
-                <form action="" name="form-step-1">
+                <form name="form-step-1">
                 <div className="form-step" data-step="1">
 
                   <p className="form-instructions"><strong>Please help me with your details</strong></p>
@@ -237,7 +257,7 @@ class Contact extends Component{
                   <div>
                       {this.state.step === 3 ?
                         <div>
-                          {this.state.trust ? <button type="submit" className="btn">Submit</button>
+                          {this.state.trust ? <button type="button" onClick={this.submitContactForm} className="btn">Submit</button>
                           : ""
                           }
 

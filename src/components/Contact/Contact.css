@@ -141,6 +141,10 @@ textarea{
   width: 100%;
 }
 
+.swal2-popup {
+  font-family: 'Sen', sans-serif;
+}
+
 @media only screen
     and (device-width : 375px)
     and (device-height : 812px)
