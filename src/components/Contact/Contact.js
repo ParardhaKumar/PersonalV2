@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
+import Swal from 'sweetalert2';
 
 import './Contact.css';
 import Error from './Error'
@@ -11,7 +12,8 @@ class Contact extends Component{
       progress: 0,
       trust: false,
       nameError: false,
-      emailError: false
+      emailError: false,
+      messageError: false,
     };
   }
 
@@ -25,8 +27,41 @@ class Contact extends Component{
     });
   }
 
+  submitContactForm = () => {
+
+    Swal.fire({
+        title: 'Note Dropped',
+        width: 300,
+        imageUrl: "/thank-you.gif",
+        padding: '1em',
+        timer: 3000,
+        showConfirmButton: false,
+        timerProgressBar: true,
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+      }).then(() => {
+            this.props.history.push({pathname: "/"});
+          })
+  }
+
+  validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
+
   formReset = () => {
     this.loadInitialState();
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    if(!name || !email){
+      this.props.history.push({pathname: '/InternalError'});
+      return;
+    }
+    name.value = "";
+    email.value = "";
     const firstStepForm = document.querySelector("[data-step='1']");
     const secondStepForm = document.querySelector("[data-step='2']");
     if(firstStepForm){
@@ -52,7 +87,53 @@ class Contact extends Component{
       return;
 
     if(this.state.step === 1){
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      if(!name || !email){
+        this.props.history.push({pathname: '/InternalError'});
+        return;
+      }
+      if(!name.value || name.value === "" || name.value.length < 4 || name.value.length > 20){
+        this.setState({
+          nameError: true,
+        });
+        return;
+      }
+      else{
+        this.setState({
+          nameError: false,
+        });
+      }
+      if(!email.value || !this.validateEmail(email.value)){
+        this.setState({
+          emailError: true,
+        });
+        return;
+      }
+      else{
+        this.setState({
+          emailError: false,
+        });
+      }
+    }
 
+    if(this.state.step === 2){
+      const message = document.getElementById("message");
+      if(!message){
+        this.props.history.push({pathname: '/InternalError'});
+        return;
+      }
+      if(!message.value || message.value === "" || message.value.length < 4){
+        this.setState({
+          messageError: true,
+        });
+        return;
+      }
+      else{
+        this.setState({
+          messageError: false,
+        });
+      }
     }
 
     var currentStepQuery = "[data-step='" + this.state.step + "']";
@@ -118,7 +199,7 @@ class Contact extends Component{
             <div className="row">
               <div className="col">
                 {/*Form Step 1*/}
-                <form action="" name="form-step-1">
+                <form name="form-step-1">
                 <div className="form-step" data-step="1">
 
                   <p className="form-instructions"><strong>Please help me with your details</strong></p>
@@ -128,7 +209,7 @@ class Contact extends Component{
           					<label>
 
                     {this.state.nameError ?
-                      <Error errorMessage="Let Yourself Be Known!"/>
+                      <Error errorMessage="Let Your True Self Be Known!"/>
                       :
                       "Name"
                     }
@@ -147,11 +228,17 @@ class Contact extends Component{
 
                   {/*Form Step 2*/}
                   <div className="form-step hidden" data-step="2">
-                      <p className="form-instructions"><strong>What's up?</strong></p>
-                          <div className="fieldgroup">
-                              <textarea id="w3review" name="w3review" rows="10" cols="50">
-                              </textarea>
-                          </div>
+                      <p className="form-instructions">
+                        {this.state.messageError ?
+                          <Error errorMessage="Don't be shy, say something."/>
+                          :
+                          <strong>What's up?</strong>
+                        }
+                      </p>
+                      <div className="fieldgroup">
+                          <textarea id="message" name="message" rows="10" cols="50">
+                          </textarea>
+                      </div>
                   </div>
 
                   {/*Form Step 3*/}
@@ -176,7 +263,7 @@ class Contact extends Component{
                   <div>
                       {this.state.step === 3 ?
                         <div>
-                          {this.state.trust ? <button type="submit" className="btn">Submit</button>
+                          {this.state.trust ? <button type="button" onClick={this.submitContactForm} className="btn">Submit</button>
                           : ""
                           }
 

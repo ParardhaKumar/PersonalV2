@@ -17,7 +17,7 @@ class Header extends Component{
             <span className="line line3"></span>
         </div>
         <ul className="menu-items">
-            <li><a href={Content.resume}  target="_blank">Resume</a></li>
+            <li><a href={Content.resume}  target="_blank" rel="noreferrer">Resume</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact">Drop A Note</a></li>
             <li><img src="random.jpg" id="nav-img" alt=""></img></li>

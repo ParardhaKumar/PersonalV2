@@ -13,10 +13,11 @@ class Error extends Component {
 					r={0}
 					dur={300}
 					int={50}
+					q={9}
 					max={100}
 					fixed={true}
 					fixedStop={false}
-					freez={false}>
+					freez={true}>
 					{this.props.errorMessage}
 				</Shake>
 			</div>
