@@ -54,6 +54,14 @@ class Contact extends Component{
 
   formReset = () => {
     this.loadInitialState();
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    if(!name || !email){
+      this.props.history.push({pathname: '/InternalError'});
+      return;
+    }
+    name.value = "";
+    email.value = "";
     const firstStepForm = document.querySelector("[data-step='1']");
     const secondStepForm = document.querySelector("[data-step='2']");
     if(firstStepForm){

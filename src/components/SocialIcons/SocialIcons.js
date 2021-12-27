@@ -9,7 +9,7 @@ class SocialIcons extends Component{
       <div className="container flex">
           { media.map(social => (
             <div className="mySocialMediaIcons">
-              <a href={social.url} target="_blank">
+              <a href={social.url} target="_blank" rel="noreferrer"> 
               <img src={social.image} alt=""></img>
               </a>
               </div>
