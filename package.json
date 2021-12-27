@@ -51,7 +51,7 @@
       "last 1 safari version"
     ]
   },
-  "babel": {      // nest config under "babel"
+  "babel": {   
     "presets": [
       "es2015",
     ],
