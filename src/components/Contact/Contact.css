@@ -116,19 +116,19 @@ progress::-webkit-progress-bar {
 	color: #fff;
 	background-color: #00AFE9;
 	padding: .8rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 1.2rem;
 	border-radius: 5px;
 	border: 2px solid transparent;
 	min-width: 45px !important;
   margin: auto;
+  text-align:'center';
 }
 
 .buttons {
   margin-top: 5vh;
 	display: flex;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding: auto;
 }
 
 .btn-alt {
