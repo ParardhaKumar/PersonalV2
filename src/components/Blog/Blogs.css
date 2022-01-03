@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+.page-header{
+  font-family: 'Sen', sans-serif;
+}
+
+.blog-container{
+  display: flex;
+  overflow: scroll;
+}
+
+.blog{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 10px solid #bdc3c7;
+}
+
+.blog-content{
+  display: flex;
+}
+
+.image{
+  flex-basis: 30%;
+  margin: 2%;
+  margin-right: 0.5%;
+}
+
+.blog-image{
+  height: 100%;
+  width: 100%;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  margin-left: 0.5%;
+}
+
+.blog-title{
+  font-size: 1rem;
+}
+
+.search-criteria{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  margin-bottom: 2%;
+}
+
+.abstract{
+  font-size: 0.9rem;
+}
