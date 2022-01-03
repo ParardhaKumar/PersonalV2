@@ -6,7 +6,7 @@ class Blog extends Component{
 
   render(){
     return(
-      <div>
+      <div className="container">
         <div className="blog-container">
 
             <div class="article">
