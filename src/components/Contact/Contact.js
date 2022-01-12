@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 import Swal from 'sweetalert2';
 
+import captchaKey from './Captcha'
 import './Contact.css';
 import Error from './Error'
 class Contact extends Component{
@@ -247,13 +248,13 @@ class Contact extends Component{
                                 {window.screen.width > 780 ?
                                   <ReCAPTCHA
                                   style={{ display: "inline-block" }}
-                                  sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                                  sitekey={testKey}
                                   theme="dark"
                                   onChange={this.captchaSuccess}/>
                                   :
                                   <ReCAPTCHA
                                   style={{ display: "inline-block" }}
-                                  sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                                  sitekey={testKey}
                                   theme="dark"
                                   onChange={this.captchaSuccess}
                                   size="compact"/>
