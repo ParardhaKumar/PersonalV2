@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 import Swal from 'sweetalert2';
 
-import captchaKey from './Captcha'
+import { captchaKey, testKey } from './Captcha'
 import './Contact.css';
 import Error from './Error'
 class Contact extends Component{
