@@ -7,6 +7,7 @@ const title = {
 
 const blog = [{
                 title: "Inspiration",
+                image: "sushant.webp",
                 date: "December 27 2021",
                 abstract: "“Perhaps, the difference between what is miserable, and that, which is spectacular, lies in the leap of faith… #selfmusing” - Sushant Singh Rajput",
                 paragraphs: ["He described himself as “Photon in a double-slit”, Sushant Singh Rajput was an engineer turned actor from a middle-class family in Patna. After his 10th, he went to Delhi where he prepared for JEE at Vidyamandir and FIITJEE hoping to secure a seat in the top engineering colleges of India, which he did. He secured AIR 7th in one of the most competitive entrance examinations, cleared IIT-JEE and also received an admission letter from ISM Dhanbad, before dropping off of college and fighting his way up the Bollywood ladder. Maybe because we have a very similar background, I don’t know, but the star-gazer and physics enthusiast resonates with something in me and makes me feel very positive and motivated when I think about him.",
@@ -17,6 +18,7 @@ const blog = [{
               },
               {
                 title: "Should Practicality Be a Part of Academia?",
+                image: "academia.jpeg",
                 date: "November 15 2021",
                 abstract: "“Education is not the answer to all the questions. Education is the means to answer all questions.”",
                 paragraphs: ["William Allin said, 'Education is not the answer to all the questions. Education is the means to answer all questions.' The purpose of Education is to make the disciple ready to face challenges in the real world, and since it is the means to answer all the questions, Education must include all the questions that need to be solved. An academic environment that is isolated would be unaware of social concerns and therefore is of no pragmatic value.",
@@ -29,6 +31,7 @@ const blog = [{
               },
               {
                 title: "Do Our Trainings Determine Our Viewpoint?",
+                image: "random.jpeg",
                 date: "September 08 2018",
                 abstract: "“Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired and success achieved.”",
                 paragraphs: ["Hellen Keller once said, “Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired and success achieved.” Every man on the planet is described by his traits, character or personality and it is the training that a person undergoes that plays an important role in shaping his personality. The statement should have been restated as “The way students and scholars interpret the      materials they work with in their academic fields is a matter of both personality and training. A personality depicted by an individual is a manifestation of the training the person has gone during his upbringing. In other words, a personality and training are not two completely distinct aspects, rather the training of a person determines what personality traits will be demonstrated by that person.",

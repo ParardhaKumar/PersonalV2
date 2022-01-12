@@ -19,7 +19,7 @@ class Blogs extends Component {
             <div className="blog">
               <div className="blog-content">
                 <div className="image">
-                <img className="blog-image" src="random.jpeg" alt="Blog Image"></img>
+                <img className="blog-image" src={blogItem.image} alt="Blog Image"></img>
                 </div>
                 <div className="text">
                   <div className="blog-title"><span onClick={() => this.goToBlog(blogItem.title)}>{blogItem.title}</span></div>
