@@ -248,13 +248,21 @@ class Contact extends Component{
                                 {window.screen.width > 780 ?
                                   <ReCAPTCHA
                                   style={{ display: "inline-block" }}
+<<<<<<< HEAD
                                   sitekey={testKey}
+=======
+                                  sitekey={captchaKey}
+>>>>>>> dd5474ca98d301ff0139c8b044a677782c08dcb7
                                   theme="dark"
                                   onChange={this.captchaSuccess}/>
                                   :
                                   <ReCAPTCHA
                                   style={{ display: "inline-block" }}
+<<<<<<< HEAD
                                   sitekey={testKey}
+=======
+                                  sitekey={captchaKey}
+>>>>>>> dd5474ca98d301ff0139c8b044a677782c08dcb7
                                   theme="dark"
                                   onChange={this.captchaSuccess}
                                   size="compact"/>
