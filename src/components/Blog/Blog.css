@@ -8,7 +8,7 @@ body{
 }
 
 .blog-container{
-  width: 60%;
+  width: auto;
   margin: auto;
   padding: 1%;
   border: 10px solid #bdc3c7;
